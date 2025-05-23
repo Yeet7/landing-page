@@ -11,18 +11,21 @@ body {
 .hero {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 8px 48px;
-    height: 600px
+    padding: 8px 96px;
+    padding-bottom: 48px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 24px;
+    gap: 16px;
 }
 
 a,
-.hero-text {
+.hero-text,
+.sign-up {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
@@ -44,19 +47,23 @@ a,
 
 .hero-container {
     display: flex;
-    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    gap: 16px;
 }
 
 .sign-up {
     background-color: #3882f6;
+    font-weight: 500;
     border-radius: 5px;
     border: none;
+    padding: 8px 24px;
+    margin-top: 8px
 }
 
 .placeholder-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
+    padding: 100px 200px;
     background-color: grey;
 }
+
