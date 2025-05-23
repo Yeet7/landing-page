@@ -1,0 +1,62 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 8px 48px;
+    height: 600px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a,
+.hero-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links a {
+    padding-right: 16px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero-head {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-container {
+    display: flex;
+    height: 150px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+}
+
+.placeholder-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-color: grey;
+}
