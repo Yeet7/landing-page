@@ -67,3 +67,36 @@ a,
     background-color: grey;
 }
 
+.information{
+    margin: 8px 160px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-head{
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 48px
+}
+
+.info-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.box{
+    text-align: center;
+
+}
+
+.blue-box{
+    outline: 2px #3882f6 solid;
+    padding: 55px 2px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
