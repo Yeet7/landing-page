@@ -8,6 +8,12 @@ body {
     margin: 0;
 }
 
+/* ---------------------- */
+/* ---------------------- */
+/* -------- HERO -------- */
+/* ---------------------- */
+/* ---------------------- */
+
 .hero {
     background-color: #1f2937;
     color: #f9faf8;
@@ -67,6 +73,12 @@ a,
     background-color: grey;
 }
 
+/* ---------------------- */
+/* ---------------------- */
+/* -------- INFO -------- */
+/* ---------------------- */
+/* ---------------------- */
+
 .information{
     margin: 8px 160px;
     padding-bottom: 48px;
@@ -99,4 +111,74 @@ a,
     padding: 55px 2px;
     border-radius: 5px;
     margin-bottom: 8px;
+}
+
+/* ---------------------- */
+/* ---------------------- */
+/* -------- QUOTE ------- */
+/* ---------------------- */
+/* ---------------------- */
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 96px;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.quote-text{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-author{
+    font-weight: 900;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 16px
+}
+
+/* ---------------------- */
+/* ---------------------- */
+/* -------- CALL -------- */
+/* ---------------------- */
+/* ---------------------- */
+
+.call{
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 70px 120px;
+    padding: 48px 96px;
+    color:#e5e7eb;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.call-head{
+    font-weight: 900;
+}
+
+.call .sign-up{
+    outline: 2px #e5e7eb solid;
+}
+
+
+
+/* ---------------------- */
+/* ---------------------- */
+/* -------- FOOT -------- */
+/* ---------------------- */
+/* ---------------------- */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 12px;
 }
